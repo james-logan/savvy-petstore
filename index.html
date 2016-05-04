@@ -7,6 +7,21 @@
   </head>
 
   <body>
+
+    <div id="navbar">
+      <ul>
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/detail">Detail</a>
+        </li>
+        <li>
+          <a href="/form">Form</a> <br>
+        </li>
+      </ul>
+    </div>
+
     <h1 class="main">SAVVY Petstore</style></h1>
 
   <div class="list">
@@ -50,11 +65,48 @@
       </ul>
     </div>
   </div>
+  <div class="clear"></div>
 
 
+  <div id="container">
+    <div id="header">
+      <h1>Road Dogs and Cats</h1>
+    </div>
+    <div id="wrapper"> <br>
+      <div id="content"> <br>
+        <h2>New Aminal Entry Form</h2> <br>
+        <form id="form1" name="form1" method="post" action="/">
+
+        <label for="title" accesskey="i">Animal Type</label>
+        <select name="title" id="fmtitle">
+        <option value="dog">DOG</option>
+        <option value="cat">CAT</option>
+<option value="Monkey">Monkey</option>
+      </select><br><br>
 
 
+          <label for="name" accesskey="n">Name</label>
+          <input type="text" name="name" id="fmname" /><br><br>
 
+          <label for="email" accesskey="e">Species<label>
+          <input type="text"  name="species" id="fmspecies" /> <br><br>
+
+          <label for="fmstate" accesskey="a">Picture</label>
+          <input type="text" name="pic" id="fmpic" /> <br><br>
+
+          <label for="fmstate" accesskey="y">Cost</label>
+          <input type="text" name="cost" id="fmcost" /> <br><br>
+          <label for="fmstate" accesskey="y">Age</label>
+          <input type="text" name="age" id="fmage" /> <br><br>
+          <label for="fmmsg">Special need information*</label><br>
+          <textarea name="msg" accesskey="m" id="fmmsg" rows="5" cols="34"></textarea>
+<br><br>
+          <input type="submit" name="submit" value="send" class="submit" />
+        </form>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="js/script.js"></script>
 
   </body>
 </html>
